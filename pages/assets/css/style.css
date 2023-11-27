@@ -1,0 +1,126 @@
+header {
+    border-style: groove none;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(25, 25, 25);
+    font-size: 40px;
+}
+
+main{
+    font-size: large;
+    margin-left:200px;
+    color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+p{
+    color: gray;
+}
+
+.li-inicio {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    padding-left: 20px; 
+    background: url('/pages/assets/images/inicio.png') no-repeat left center;
+    background-size: 16px 16px;
+
+}
+
+.li-explorar{
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+    background: url('/pages/assets/images/explorar.png') no-repeat left center;
+    background-size: 16px 16px ;
+}
+.li-favoritos{
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+    background: url('/pages/assets/images/favoritos.png') no-repeat left center;
+    background-size: 16px 16px ;
+}
+
+.barra-pesquisa{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    padding-left: 40px;
+    margin-left: 165px;
+    border-style: groove;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+}
+
+.form-pesquisa{
+    display: flex;
+    padding: 20px;
+    width: 40vw;
+    height: 40px;
+    background-color: ghostwhite;
+    border-style: hidden;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.Cloud{
+    color:ghostwhite;
+    text-align: center;
+    margin: 5px;
+}
+
+.main-pages{
+    border-style: groove;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    float: left;
+    border-width: 1px;
+    padding: 0px;
+    border-left: none;
+    border-top: none;
+    height: 100vh;
+}
+
+.main-list {
+    margin: 1px;
+    list-style-type:none;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    color: ghostwhite;
+    padding: 10px;
+    border-style: groove none;
+    border-color: ghostwhite;
+    border-top: none;
+    border-width: 1px;
+}
+
+.second-list {
+    margin-top: 0px;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    color: ghostwhite;
+    padding: 10px;
+}
+
+.playlist{
+    color:ghostwhite;
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    background: url('/pages/assets/images/mais.png') no-repeat right center;
+    background-size: 16px 16px;
+}
+
+
